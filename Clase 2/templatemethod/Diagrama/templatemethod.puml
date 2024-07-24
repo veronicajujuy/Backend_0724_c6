@@ -1,0 +1,41 @@
+@startuml
+'https://plantuml.com/class-diagram
+abstract class Empleado{
+-nombre: String
+-apellido:String
+-nroCuenta:String
+//get/set/const
+}
+Efectivo -u-|> Empleado
+Contratado -u-|> Empleado
+class Efectivo {
+-sueldoBase: double
+-descuentos: double
+-premios: double
+//get/set/const
+}
+class Contratado {
+-cantHoras: int
+-tarifaHora: double
+//get/set/const
+}
+Empleado .r.>Liquidacion
+abstract class Liquidacion{
++liquidarSueldo(Empleado): String
+#{abstract}calculaSueldo(Empleado): double
+#{abstract}imprimir(Empleado): String
+-depositar(Empleado): boolean
+}
+LiquidacionContratado -u-|> Liquidacion
+LiquidacionEfectivo -u-|> Liquidacion
+
+class LiquidacionEfectivo{
+#calculaSueldo(Empleado): double
+#imprimir(Empleado): String
+}
+class LiquidacionContratado{
+#calculaSueldo(Empleado): double
+#imprimir(Empleado): String
+}
+
+@enduml
