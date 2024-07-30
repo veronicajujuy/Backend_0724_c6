@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+class Computadora {
+-tipo: String
+-ram: int
+-discoRigido: int
+-contador: int
+//getter/setter/constructor
+}
+
+class ComputadoraFactory{
+-poolComputadoras: Map<String, Computadora>
++getComputadora(String, int, int): Computadora
+}
+
+Computadora ..> ComputadoraFactory
+
+@enduml
