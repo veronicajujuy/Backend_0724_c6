@@ -1,0 +1,19 @@
+[2024-08-01 19:45:27] [ INFO ] [Main:7] [main] Este es un log de informacion
+[2024-08-01 19:45:27] [ ERROR] [Main:8] [main] Este es un error
+[2024-08-01 19:47:22] [ INFO ] [Main:7] [main] Este es un log de informacion
+[2024-08-01 19:47:22] [ ERROR] [Main:8] [main] Este es un error
+[2024-08-01 20:12:42] [ ERROR] [Main:12] [main] La lista no tiene elementos
+[2024-08-01 20:12:42] [ INFO ] [ListaEnteros:13] [agregarEnteros] La lista tiene mas de 5 elementos
+[2024-08-01 20:12:42] [ INFO ] [ListaEnteros:29] [promedio] El promedio es 6.0
+[2024-08-01 20:14:12] [ ERROR] [Main:12] [main] La lista no tiene elementos
+[2024-08-01 20:14:12] [ DEBUG] [ListaEnteros:12] [agregarEnteros] el numero agregado es9
+[2024-08-01 20:14:12] [ DEBUG] [ListaEnteros:12] [agregarEnteros] el numero agregado es8
+[2024-08-01 20:14:12] [ DEBUG] [ListaEnteros:12] [agregarEnteros] el numero agregado es-10
+[2024-08-01 20:14:12] [ DEBUG] [ListaEnteros:12] [agregarEnteros] el numero agregado es14
+[2024-08-01 20:14:12] [ DEBUG] [ListaEnteros:12] [agregarEnteros] el numero agregado es20
+[2024-08-01 20:14:12] [ DEBUG] [ListaEnteros:12] [agregarEnteros] el numero agregado es-5
+[2024-08-01 20:14:12] [ INFO ] [ListaEnteros:14] [agregarEnteros] La lista tiene mas de 5 elementos
+[2024-08-01 20:14:12] [ INFO ] [ListaEnteros:30] [promedio] El promedio es 6.0
+[2024-08-01 20:14:46] [ ERROR] [Main:12] [main] La lista no tiene elementos
+[2024-08-01 20:14:46] [ INFO ] [ListaEnteros:14] [agregarEnteros] La lista tiene mas de 5 elementos
+[2024-08-01 20:14:46] [ INFO ] [ListaEnteros:30] [promedio] El promedio es 6.0
