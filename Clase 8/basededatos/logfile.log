@@ -18,3 +18,12 @@ CREATE TABLE ANIMALES (ID INT AUTO_INCREMENT PRIMARY KEY, TIPO VARCHAR(50) NOT N
 [2024-08-01 22:15:35] [ INFO ] [Main:30] [main] animal: 3 PERRO FIRULAIS
 [2024-08-01 22:15:35] [ INFO ] [Main:30] [main] animal: 4 PERRO ODIE
 [2024-08-01 22:15:35] [ INFO ] [Main:30] [main] animal: 5 PERICO GERMAN
+[2024-08-01 22:46:33] [ ERROR] [Main:35] [main] La base de datos puede que ya esté siendo utilizada: "G:/Java/DH_0724/Backend_C6/Clase 8/basededatos/clase8.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "G:/Java/DH_0724/Backend_C6/Clase 8/basededatos/clase8.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-08-01 22:46:58] [ ERROR] [Main:35] [main] La base de datos puede que ya esté siendo utilizada: "G:/Java/DH_0724/Backend_C6/Clase 8/basededatos/clase8.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "G:/Java/DH_0724/Backend_C6/Clase 8/basededatos/clase8.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-08-01 22:48:39] [ INFO ] [Main:30] [main] animal: 1 GATO GARFIELD
+[2024-08-01 22:48:39] [ INFO ] [Main:30] [main] animal: 2 GATO MICHI
+[2024-08-01 22:48:39] [ INFO ] [Main:30] [main] animal: 3 PERRO FIRULAIS
+[2024-08-01 22:48:39] [ INFO ] [Main:30] [main] animal: 4 PERRO ODIE
+[2024-08-01 22:48:39] [ INFO ] [Main:30] [main] animal: 5 PERICO GERMAN
