@@ -1,0 +1,15 @@
+[2024-08-06 19:56:55] [ ERROR] [Main:44] Error de Sintaxis en sentencia SQL "CREATE TABLE CUENTAS (ID INT AUTO_INCREMENT [*]PRIMARY KEYNROCUENTA VARCHAR(25) NOT NULL, NOMBRE VARCHAR(25) NOT NULL,SALDO DECIMAL(7,2) NOT NULL)"; se esperaba "(, NOT NULL, DEFAULT ON NULL, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, CHECK, REFERENCES, ,, )"
+Syntax error in SQL statement "CREATE TABLE CUENTAS (ID INT AUTO_INCREMENT [*]PRIMARY KEYNROCUENTA VARCHAR(25) NOT NULL, NOMBRE VARCHAR(25) NOT NULL,SALDO DECIMAL(7,2) NOT NULL)"; expected "(, NOT NULL, DEFAULT ON NULL, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE CUENTAS (ID INT AUTO_INCREMENT PRIMARY KEYNROCUENTA VARCHAR(25) NOT NULL, NOMBRE VARCHAR(25) NOT NULL,SALDO DECIMAL(7,2) NOT NULL) [42001-224]
+[2024-08-06 19:57:55] [ INFO ] [Main:41] cuentaCuenta{id=1, nroCuenta='456788', nombre='pepito.mp', saldo=1500.0}
+[2024-08-06 19:58:51] [ INFO ] [Main:41] Cuenta{id=1, nroCuenta='456788', nombre='pepito.mp', saldo=1500.0}
+[2024-08-06 20:25:22] [ INFO ] [Main:42] Cuenta{id=1, nroCuenta='456788', nombre='pepito.mp', saldo=1500.0}
+[2024-08-06 20:25:22] [ INFO ] [Main:67] Cuenta{id=1, nroCuenta='456788', nombre='pepito.mp', saldo=1515.0}
+[2024-08-06 20:26:16] [ INFO ] [Main:42] Cuenta{id=1, nroCuenta='456788', nombre='pepito.mp', saldo=1500.0}
+[2024-08-06 20:26:16] [ ERROR] [Main:54] / by zero
+[2024-08-06 20:26:16] [ INFO ] [Main:68] Cuenta{id=1, nroCuenta='456788', nombre='pepito.mp', saldo=1500.0}
+[2024-08-06 20:26:51] [ INFO ] [Main:42] Cuenta{id=1, nroCuenta='456788', nombre='pepito.mp', saldo=1500.0}
+[2024-08-06 20:26:51] [ ERROR] [Main:54] se ejecuto el rollback/ by zero
+[2024-08-06 20:26:51] [ INFO ] [Main:68] Cuenta{id=1, nroCuenta='456788', nombre='pepito.mp', saldo=1500.0}
+[2024-08-06 20:27:40] [ INFO ] [Main:42] Cuenta{id=1, nroCuenta='456788', nombre='pepito.mp', saldo=1500.0}
+[2024-08-06 20:27:40] [ INFO ] [Main:68] Cuenta{id=1, nroCuenta='456788', nombre='pepito.mp', saldo=1515.0}
