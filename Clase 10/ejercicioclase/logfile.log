@@ -1,0 +1,18 @@
+[2024-08-06 22:24:10] [ INFO ] [DaoH2Medicamento:38] medicamento persistido Medicamento{id=4, codigo=555, nombre='Loratadina', laboratorio='Bayer', cantidad=12, precio=250.0}
+[2024-08-06 22:27:18] [ INFO ] [DaoH2Medicamento:81] medicamento encontrado Medicamento{id=1, codigo=123, nombre='IBUPIRAC', laboratorio='BAYER', cantidad=10, precio=350.0}
+[2024-08-06 22:28:20] [ INFO ] [DaoH2Medicamento:81] medicamento encontrado Medicamento{id=1, codigo=123, nombre='IBUPIRAC', laboratorio='BAYER', cantidad=10, precio=350.0}
+[2024-08-06 22:39:45] [ INFO ] [DaoH2Medicamento:119] []
+[2024-08-06 22:39:45] [ INFO ] [DaoH2Medicamento:119] [Medicamento{id=1, codigo=123, nombre='IBUPIRAC', laboratorio='BAYER', cantidad=10, precio=350.0}]
+[2024-08-06 22:39:45] [ INFO ] [DaoH2Medicamento:119] [Medicamento{id=1, codigo=123, nombre='IBUPIRAC', laboratorio='BAYER', cantidad=10, precio=350.0}, Medicamento{id=2, codigo=789, nombre='ACEMUK', laboratorio='PFIZER', cantidad=15, precio=450.0}]
+[2024-08-06 22:40:56] [ INFO ] [DaoH2Medicamento:119] Medicamento{id=1, codigo=123, nombre='IBUPIRAC', laboratorio='BAYER', cantidad=10, precio=350.0}
+[2024-08-06 22:40:56] [ INFO ] [DaoH2Medicamento:119] Medicamento{id=2, codigo=789, nombre='ACEMUK', laboratorio='PFIZER', cantidad=15, precio=450.0}
+[2024-08-06 22:40:56] [ INFO ] [DaoH2Medicamento:119] Medicamento{id=3, codigo=789, nombre='PARACETAMOL', laboratorio='BAGO', cantidad=10, precio=150.0}
+[2024-08-06 22:41:18] [ INFO ] [DaoH2Medicamento:119] Medicamento{id=1, codigo=123, nombre='IBUPIRAC', laboratorio='BAYER', cantidad=10, precio=350.0}
+[2024-08-06 22:41:18] [ INFO ] [DaoH2Medicamento:119] Medicamento{id=2, codigo=789, nombre='ACEMUK', laboratorio='PFIZER', cantidad=15, precio=450.0}
+[2024-08-06 22:41:18] [ INFO ] [DaoH2Medicamento:119] Medicamento{id=3, codigo=789, nombre='PARACETAMOL', laboratorio='BAGO', cantidad=10, precio=150.0}
+[2024-08-06 22:41:43] [ INFO ] [DaoH2Medicamento:41] medicamento persistido Medicamento{id=4, codigo=555, nombre='Loratadina', laboratorio='Bayer', cantidad=12, precio=250.0}
+[2024-08-06 22:41:43] [ INFO ] [DaoH2Medicamento:84] medicamento encontrado Medicamento{id=1, codigo=123, nombre='IBUPIRAC', laboratorio='BAYER', cantidad=10, precio=350.0}
+[2024-08-06 22:41:43] [ INFO ] [DaoH2Medicamento:119] Medicamento{id=1, codigo=123, nombre='IBUPIRAC', laboratorio='BAYER', cantidad=10, precio=350.0}
+[2024-08-06 22:41:43] [ INFO ] [DaoH2Medicamento:119] Medicamento{id=2, codigo=789, nombre='ACEMUK', laboratorio='PFIZER', cantidad=15, precio=450.0}
+[2024-08-06 22:41:43] [ INFO ] [DaoH2Medicamento:119] Medicamento{id=3, codigo=789, nombre='PARACETAMOL', laboratorio='BAGO', cantidad=10, precio=150.0}
+[2024-08-06 22:41:43] [ INFO ] [DaoH2Medicamento:119] Medicamento{id=4, codigo=555, nombre='Loratadina', laboratorio='Bayer', cantidad=12, precio=250.0}
