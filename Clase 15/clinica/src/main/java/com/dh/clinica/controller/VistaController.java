@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-public class PacienteController {
+public class VistaController {
     private PacienteService pacienteService;
 
-    public PacienteController(PacienteService pacienteService) {
+    public VistaController(PacienteService pacienteService) {
         this.pacienteService = pacienteService;
     }
 
