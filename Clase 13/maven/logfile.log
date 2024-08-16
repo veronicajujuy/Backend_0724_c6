@@ -39,3 +39,7 @@
 [2024-08-13 22:40:47] [ INFO ] [PacienteDaoH2:89] paciente encontrado Paciente{id=1, apellido='PEREZ', nombre='JUAN', dni='45566', fechaIngreso=2024-07-15, domicilio=Domicilio{id=1, calle='SIEMPRE VIVA', numero=123, localidad='CABA', provincia='BUENOS AIRES'}}
 [2024-08-13 22:40:59] [ INFO ] [DomicilioDaoH2:83] domicilio encontrado Domicilio{id=1, calle='SIEMPRE VIVA', numero=123, localidad='CABA', provincia='BUENOS AIRES'}
 [2024-08-13 22:40:59] [ INFO ] [PacienteDaoH2:89] paciente encontrado Paciente{id=1, apellido='PEREZ', nombre='JUAN', dni='45566', fechaIngreso=2024-07-15, domicilio=Domicilio{id=1, calle='SIEMPRE VIVA', numero=123, localidad='CABA', provincia='BUENOS AIRES'}}
+[2024-08-15 21:01:29] [ INFO ] [DomicilioDaoH2:36] domicilio persistido Domicilio{id=2, calle='Falsa', numero=456, localidad='Cipolleti', provincia='Rio Negro'}
+[2024-08-15 21:01:29] [ INFO ] [PacienteDaoH2:40] paciente persistido Paciente{id=2, apellido='Romero', nombre='Luciana', dni='56655', fechaIngreso=2024-07-16, domicilio=Domicilio{id=2, calle='Falsa', numero=456, localidad='Cipolleti', provincia='Rio Negro'}}
+[2024-08-15 21:01:29] [ INFO ] [DomicilioDaoH2:83] domicilio encontrado Domicilio{id=1, calle='SIEMPRE VIVA', numero=123, localidad='CABA', provincia='BUENOS AIRES'}
+[2024-08-15 21:01:29] [ INFO ] [PacienteDaoH2:89] paciente encontrado Paciente{id=1, apellido='PEREZ', nombre='JUAN', dni='45566', fechaIngreso=2024-07-15, domicilio=Domicilio{id=1, calle='SIEMPRE VIVA', numero=123, localidad='CABA', provincia='BUENOS AIRES'}}
