@@ -40,4 +40,14 @@ public class PacienteService implements IPacienteService {
     public void eliminarPaciente(Integer id) {
         pacienteRepository.deleteById(id);
     }
+
+    @Override
+    public List<Paciente> buscarPorApellidoyNombre(String apellido, String nombre) {
+        return pacienteRepository.findByApellidoAndNombre(apellido, nombre);
+    }
+
+    @Override
+    public List<Paciente> buscarLikeNombre(String nombre) {
+        return pacienteRepository.findByNombreLike(nombre);
+    }
 }

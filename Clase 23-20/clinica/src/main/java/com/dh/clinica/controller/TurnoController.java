@@ -43,4 +43,9 @@ public class TurnoController {
         turnoService.modificarTurno(turnoModificarDto);
         return ResponseEntity.ok("{\"mensaje\": \"El paciente fue modificado\"}");
     }
+
+    @GetMapping("/buscartodos/{apellido}")
+    public ResponseEntity<List<Turno>> buscarTurnoApellidoPaciente(@PathVariable String apellido){
+        return ResponseEntity.ok(turnoService.buscarTurnoPaciente(apellido));
+    }
 }

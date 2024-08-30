@@ -64,5 +64,16 @@ public class PacienteController {
             return ResponseEntity.notFound().build();
         }
     }
+
+    @GetMapping("/buscarApellidoNombre")
+    public ResponseEntity<List<Paciente>> buscarApellidoYNombre(@RequestParam String apellido,
+                                                                @RequestParam String nombre){
+        return ResponseEntity.ok(pacienteService.buscarPorApellidoyNombre(apellido, nombre));
+    }
+
+    @GetMapping("/buscarNombre/{nombre}")
+    public ResponseEntity<List<Paciente>> buscarNombreLike(@PathVariable String nombre){
+        return ResponseEntity.ok(pacienteService.buscarLikeNombre(nombre));
+    }
 }
 
